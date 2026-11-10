@@ -1,3 +1,4 @@
+import { more1, more2, more3, more4, more5, more6, more7, more8, more9, more10 } from "./data/more";
 import { week1 } from "./data/week1";
 import { week2 } from "./data/week2";
 import { week3 } from "./data/week3";
@@ -46,4 +47,14 @@ export const QUESTIONS: Question[] = [
   ...week8,
   ...week9,
   ...week10,
+  ...more1,
+  ...more2,
+  ...more3,
+  ...more4,
+  ...more5,
+  ...more6,
+  ...more7,
+  ...more8,
+  ...more9,
+  ...more10,
 ];

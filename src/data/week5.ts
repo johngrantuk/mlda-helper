@@ -50,7 +50,7 @@ Compute $R(a=1\mid\mathbf x)$.`,
 $R(a=1|\mathbf x)=L(1|1)p(y{=}1|\mathbf x)+L(1|0)p(y{=}0|\mathbf x)=0(0.3)+3(0.7)=2.1$.
 
 (For comparison $R(a=0|\mathbf x)=2(0.3)=0.6$, so action 0 is better.)`,
-    where: r`Lecture 5 · Bayesian decision theory (slides 45–46) and generative classifiers (Bayes' rule).`,
+    where: r`Lecture 5 · Bayesian decision theory (slides 45–46).`,
   },
   {
     week: 5,
@@ -154,14 +154,5 @@ $R(a=1|\mathbf x)=L(1|1)p(y{=}1|\mathbf x)+L(1|0)p(y{=}0|\mathbf x)=0(0.3)+3(0.7
     a: r`To obtain **scores/probabilities** so that ROC AUC (and the ROC curve) can be computed across all thresholds; discrete labels would give only one point on the curve. Probabilities also let you choose a decision threshold or apply decision theory.`,
     e: r`**roc_auc_score** needs a continuous score for ranking positives above negatives.`,
     where: r`Lecture 5 · ROC curves/AUC and Bayesian decision theory.`,
-  },
-  {
-    week: 5,
-    source: "Practice",
-    marks: 2,
-    q: r`In $k$-nearest neighbours, what is the effect of $k=1$ vs a very large $k$?`,
-    a: r`$k=1$: very flexible, low bias / high variance (overfits). Very large $k$: smoother, high bias (underfits). Choose $k$ using the validation set.`,
-    e: r`$k$-NN is non-parametric: it stores the training set and predicts from the $k$ closest points.`,
-    where: r`Lecture 5 · The non-parametric $k$-NN classifier.`,
   },
 ];
